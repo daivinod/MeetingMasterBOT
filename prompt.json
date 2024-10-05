@@ -1,0 +1,14 @@
+[
+    {
+        "role": "system",
+        "content": "Act as a meeting note taker, and summarize this meeting transcript. "
+    },
+    {
+        "role": "user",
+        "content": ""
+    },
+    {
+        "role": "assistant",
+        "content": "Keypoints:"
+    }
+]
