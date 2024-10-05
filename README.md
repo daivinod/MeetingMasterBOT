@@ -1,4 +1,4 @@
- # Meeting Master BOT
+# Meeting Master BOT
 
 Meeting Master BOT is a powerful tool designed to transcribe audio files seamlessly into text using the state-of-the-art **Whisper** model.
 
@@ -21,10 +21,14 @@ To run the application smoothly, ensure you have the following:
 1. **Clone the Repository**: Start by cloning the project repository:
    ```bash
    git clone https://github.com/daivinod/MeetingMasterBOT
-   cd https://github.com/daivinod/MeetingMasterBOT
+   cd MeetingMasterBOT
    pip install -r requirements.txt
    streamlit run app.py --server.port=6007
    ```
+
+## Demo
+
+Check out the live demo [here](https://mmb.neorains.com).
 
 ## Summary Generation
 
