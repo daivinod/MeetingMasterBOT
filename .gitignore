@@ -2,3 +2,4 @@ _needs/*
 transcriptions/*
 *.bin
 .venv/*
+__pycache__
