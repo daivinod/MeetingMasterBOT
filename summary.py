@@ -21,7 +21,7 @@ def split_text(text, word_limit=1300):
     num_parts = len(words) // word_limit + 1
     return [' '.join(words[i * word_limit: (i + 1) * word_limit]) for i in range(num_parts)]
 
-def load_prompt(filename="./prompt.json"):
+def load_prompt(filename="prompt.json"):
     """
     Loads a prompt from a JSON file.
 
