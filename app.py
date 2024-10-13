@@ -4,7 +4,7 @@ import requests
 from summary import get_summary
 
 # Define the URL of your Flask API
-API_URL = "http://27.5.226.129:6006/transcribe"
+API_URL = "http://api.whisper.neorains.com/transcribe"
 
 # Set up the layout
 st.set_page_config(layout="wide")  # Enables the wide layout in Streamlit

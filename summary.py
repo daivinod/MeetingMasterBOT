@@ -45,7 +45,7 @@ def get_summary(transcript):
     # Process each chunk
     for i, chunk in enumerate(chunks, start=1):
         prompt[-2]["content"] = chunk
-        url = "http://27.5.226.129:11434/api/chat"
+        url = "https://llm.neorains.com/api/chat"
         payload = {
             "model": "llama3.1",
             "messages": prompt, 
